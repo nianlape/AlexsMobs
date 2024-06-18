@@ -32,7 +32,7 @@ public class ItemSkelewagSword extends SwordItem {
         return 3.5F;
     }
 
-    @Override
+    /*@Override
     public boolean canPerformAction(ItemStack stack, ToolAction toolAction) {
         return ToolActions.DEFAULT_SHIELD_ACTIONS.contains(toolAction);
     }
@@ -43,7 +43,7 @@ public class ItemSkelewagSword extends SwordItem {
 
     public int getUseDuration(ItemStack stack) {
         return 72000;
-    }
+    }*/
 
     @Override
     public void initializeClient(java.util.function.Consumer<IClientItemExtensions> consumer) {
