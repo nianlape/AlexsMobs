@@ -50,11 +50,11 @@ public class ItemSkelewagSword extends SwordItem {
         consumer.accept((IClientItemExtensions) AlexsMobs.PROXY.getISTERProperties());
     }
 
-    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
+    /*public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         ItemStack lvt_4_1_ = player.getItemInHand(hand);
         player.startUsingItem(hand);
         return InteractionResultHolder.consume(lvt_4_1_);
-    }
+    }*/
 
     @Override
     public boolean isValidRepairItem(ItemStack stack, ItemStack repairStack) {
